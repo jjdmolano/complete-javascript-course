@@ -1,6 +1,6 @@
 // Values & Variables
-let country = 'Philippines';
-let continent = 'Asia';
+/* const country = 'Philippines';
+const continent = 'Asia';
 let population = 110590000;
 
 console.log(country);
@@ -10,9 +10,13 @@ console.log(population.toLocaleString());
 
 
 // Data Types
-let isIsland = true;
-let language;
+const isIsland = true;
+const language;
 console.log(typeof isIsland);
 console.log(typeof population);
 console.log(typeof country);
 console.log(typeof language);
+*/
+
+// let, const and var
+language = 'Tagalog';
