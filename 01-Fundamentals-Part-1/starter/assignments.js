@@ -22,17 +22,17 @@ language = 'Tagalog';
 // Basic Operators
 
 let halfPopulation = population / 2;
-console.log(halfPopulation);
+// console.log(halfPopulation);
 population++;
-console.log(population);
+// console.log(population);
 
 let finlandPopulation = 6;
 finlandComparison = population > finlandPopulation;
-console.log(finlandComparison);
+// console.log(finlandComparison);
 
 let averagePopulation = 33;
 averageComparison = population < averagePopulation;
-console.log(averageComparison);
+// console.log(averageComparison);
 
 let description = `${country} is in ${continent}, and its ${population} million people speak ${language}`;
 console.log(description);

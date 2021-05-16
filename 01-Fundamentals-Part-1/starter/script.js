@@ -52,7 +52,6 @@ job = 'teacher';
 
 lastName = 'Molano';
 console.log(lastName);
-*/
 
 // Basic Operators
 // Math Operators
@@ -84,3 +83,28 @@ console.log(ageSarah >= 18);
 const isFullAge = ageSarah >= 18;
 
 console.log(now - 1991 > now - 2018);
+
+// Operator Precedence
+let x, y;
+x = y = 25 - 10 - 5;
+console.log(x, y);
+*/
+
+// Strings and Template Literals
+const firstName = 'Jonas';
+const job = 'teacher';
+const birthYear = 1991;
+const year = 2037;
+
+const jonas = `I'm ${firstName}, a ${year - birthYear} year old ${job}!`;
+console.log(jonas);
+
+console.log(`Just a regular string...`);
+
+console.log('String with \n\
+multiple \n\
+lines');
+
+console.log(`String
+multiple
+lines`);
