@@ -126,7 +126,6 @@ if (birthYear <= 2000) {
 	century = 21;
 }
 console.log(century);
-*/
 
 // Type Conversion and Coercion
 // Type Conversion
@@ -144,3 +143,27 @@ console.log('I am ' + 23 + ' years old'); // add operator triggers number conver
 console.log('23' - '10' - 3); // minus operator triggers string conversion to numbers
 console.log('23' * '2', '23' / '2'); // same behavior as above
 console.log('23' > '18'); // same behavior as above
+*/
+
+// Truthy and Falsy Values
+// 5 Falsy Values: 0, '', undefined, null, NaN
+// will be converted to false when attempted to convert to boolean
+console.log(Boolean(0));
+console.log(Boolean(undefined));
+console.log(Boolean('Jonas'));
+console.log(Boolean({})); // blank object
+console.log(Boolean(''));
+
+const money = 100;
+if (money) {
+    console.log("Don't spend it all 😉");
+} else {
+    console.log("You should get a job!");
+}
+
+let height;
+if(height) { // since height is undefined, it's falsy and will be converted to false
+    console.log('Yay! Height is defined 📏');
+} else {
+    console.log('Height is undefined ❌');
+}

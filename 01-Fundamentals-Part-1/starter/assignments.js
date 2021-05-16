@@ -51,4 +51,4 @@ let description = `${country} is in ${continent}, and its ${population} million 
 
 // Type Conversion and Coercion
 const predictedAnswers = `4, 617, 23, false, 1143`
-console.log('9' - '5', '19' - '13' + '17', '19' - '13' + 17, '123' < 57, 5 + 6 + '4' + 9 - 4 - 2);
+// console.log('9' - '5', '19' - '13' + '17', '19' - '13' + 17, '123' < 57, 5 + 6 + '4' + 9 - 4 - 2);
