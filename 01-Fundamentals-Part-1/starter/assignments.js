@@ -39,7 +39,7 @@ let description = `${country} is in ${continent}, and its ${population} million 
 // console.log(description);
 
 // Taking Decisions: if / else Statements
-if (population > 33) {
+/* if (population > 33) {
 	console.log(`${country}'s population is above average`);
 } else {
 	let belowAverage = 33 - population;
@@ -47,3 +47,8 @@ if (population > 33) {
 		`${country}'s population is ${belowAverage} million below average`
 	);
 }
+*/
+
+// Type Conversion and Coercion
+const predictedAnswers = `4, 617, 23, false, 1143`
+console.log('9' - '5', '19' - '13' + '17', '19' - '13' + 17, '123' < 57, 5 + 6 + '4' + 9 - 4 - 2);
