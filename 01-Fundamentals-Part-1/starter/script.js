@@ -88,7 +88,6 @@ console.log(now - 1991 > now - 2018);
 let x, y;
 x = y = 25 - 10 - 5;
 console.log(x, y);
-*/
 
 // Strings and Template Literals
 const firstName = 'Jonas';
@@ -108,3 +107,23 @@ lines');
 console.log(`String
 multiple
 lines`);
+*/
+
+// Taking Decisions: if / else Statements
+const age = 15;
+
+if (age >= 18) {
+	console.log('Sarah can start her driving license 🚗');
+} else {
+	const yearsLeft = 18 - age;
+	console.log(`Sarah is too young. Wait another ${yearsLeft} years 😊`);
+}
+
+const birthYear = 2012;
+let century;
+if (birthYear <= 2000) {
+	century = 20;
+} else {
+	century = 21;
+}
+console.log(century);
