@@ -50,7 +50,7 @@ let description = `${country} is in ${continent}, and its ${population} million 
 */
 
 // Type Conversion and Coercion
-const predictedAnswers = `4, 617, 23, false, 1143`
+const predictedAnswers = `4, 617, 23, false, 1143`;
 // console.log('9' - '5', '19' - '13' + '17', '19' - '13' + 17, '123' < 57, 5 + 6 + '4' + 9 - 4 - 2);
 
 // Equality Operators
@@ -74,7 +74,7 @@ if (numNeighbors === 1) {
 */
 
 // The switch Statement
-switch (language) {
+/* switch (language) {
     case 'Chinese':
     case 'Mandarin':
         console.log('MOST number of native speakers!');
@@ -94,3 +94,9 @@ switch (language) {
     default:
         console.log('Great language too 😊');
 }
+*/
+
+// The Conditional (Ternary) Operator
+population > 33
+	? console.log(`${country}'s population is above average`)
+	: console.log(`${country}'s population is below average`);
