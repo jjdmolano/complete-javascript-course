@@ -271,14 +271,13 @@ if (day === 'monday') {
 } else {
     console.log('Not a valid day! ❌');
 }
-*/
 
 // The Conditional (Ternary) Operator
 
 const age = 23;
 // age >= 18
-	// ? console.log('I like to drink wine 🍷')
-	// : console.log('I like to drink water 💧');
+// ? console.log('I like to drink wine 🍷')
+// : console.log('I like to drink water 💧');
 
 const drink = age>= 18 ? 'wine 🍷' : 'water 💧';
 console.log(drink);
@@ -293,3 +292,4 @@ if(age >= 18) {
 console.log(drink2);
 
 console.log(`I like to drink ${age>= 18 ? 'wine 🍷' : 'water 💧'}`);
+*/
