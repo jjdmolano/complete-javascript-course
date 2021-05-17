@@ -52,3 +52,14 @@ let description = `${country} is in ${continent}, and its ${population} million 
 // Type Conversion and Coercion
 const predictedAnswers = `4, 617, 23, false, 1143`
 // console.log('9' - '5', '19' - '13' + '17', '19' - '13' + 17, '123' < 57, 5 + 6 + '4' + 9 - 4 - 2);
+
+// Equality Operators
+const numNeighbors = Number(prompt('How many neighbor countries does your country have?'));
+1
+if (numNeighbors === 1) {
+    console.log('Only 1 border!');
+} else if (numNeighbors > 1) {
+    console.log('More than 1 border');
+} else {
+    console.log('No borders');
+}

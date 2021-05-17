@@ -143,7 +143,6 @@ console.log('I am ' + 23 + ' years old'); // add operator triggers number conver
 console.log('23' - '10' - 3); // minus operator triggers string conversion to numbers
 console.log('23' * '2', '23' / '2'); // same behavior as above
 console.log('23' > '18'); // same behavior as above
-*/
 
 // Truthy and Falsy Values
 // 5 Falsy Values: 0, '', undefined, null, NaN
@@ -167,3 +166,25 @@ if(height) { // since height is undefined, it's falsy and will be converted to f
 } else {
     console.log('Height is undefined ❌');
 }
+
+// Equality Operators
+const age = '18';
+if (age === 18) console.log('You just became an adult 😊 (strict)');
+if (age == 18) console.log('You just became an adult 😊 (loose)');
+
+const favorite = Number(prompt("What's your favorite number?"));
+console.log(favorite);
+console.log(typeof favorite);
+
+if (favorite === 23) {
+    console.log('Cool! 23 is an amazing number!');
+} else if (favorite === 7) {
+    console.log('7 is also a cool number!');
+} else if (favorite === 9) {
+    console.log('9 is also a cool number!');
+} else {
+    console.log('Number is not 23 or 7');
+}
+
+if (favorite !== 23) console.log('Why not 23?');
+*/
