@@ -188,3 +188,24 @@ if (favorite === 23) {
 
 if (favorite !== 23) console.log('Why not 23?');
 */
+
+// Boolean Logic
+const age = 16;
+const varA = age >= 20; // false
+const varB = age < 30; // true
+console.log(varA, varB);
+
+const checkNotA = varA !== true; // false is not true, therefore true
+console.log(checkNotA);
+
+const checkAAndB = varA && varB === true; // false and true are not true, therefore false
+console.log(checkAAndB);
+
+const checkAOrB = varA || varB === true; // true or true are true, therefore true
+console.log(checkAOrB);
+
+const checkNotAAndB = varA !== true && varB === true; // false is not true, and true, therefore true
+console.log(checkNotAAndB);
+
+const checkAOrNotB = varA === true && varB !== true; // false is not true, and true is not false, therefore false
+console.log(checkAOrNotB);

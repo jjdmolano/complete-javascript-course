@@ -54,7 +54,7 @@ const predictedAnswers = `4, 617, 23, false, 1143`
 // console.log('9' - '5', '19' - '13' + '17', '19' - '13' + 17, '123' < 57, 5 + 6 + '4' + 9 - 4 - 2);
 
 // Equality Operators
-const numNeighbors = Number(prompt('How many neighbor countries does your country have?'));
+/* const numNeighbors = Number(prompt('How many neighbor countries does your country have?'));
 1
 if (numNeighbors === 1) {
     console.log('Only 1 border!');
@@ -63,3 +63,4 @@ if (numNeighbors === 1) {
 } else {
     console.log('No borders');
 }
+*/
