@@ -438,3 +438,25 @@ To transform to value:
 To just loop array: (does not create new array, just loops over it)
     Based on callback: .forEach
 */
+
+// #6 DONE
+function solution(A) {
+    const velocity = [];
+    let stableCount = 0;
+
+    for(let i = 0; i < A.length - 1; i++) {
+        velocity.push(A[i + 1] - A[i]);
+    }
+
+    for(let i = 0; i < velocity.length - 1; i++) {
+        velocity[i + 1] === velocity[i] ? stableCount++ : -1;
+    }
+
+    for(let i = 0; i < velocity.length - 1; i++) {
+        velocity[i + 1] === velocity[i] && velocity[i + 2] === velocity[i] ? stableCount++ : -1;
+    }
+
+    return result = stableCount <= 1000000000 ? stableCount : -1;
+}
+
+// console.log(solution([-1, 1, 3, 3, 3, 2, 3, 2, 1, 0]));
